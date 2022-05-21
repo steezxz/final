@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  
+  body{
+      justify-content: center;
+      background: rgb(0, 0, 0);
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  img{
+      justify-content: center;
+  }
+
+  .gameconsoles{
+      position: relative;
+      justify-content: center;
+      margin-top: 9%;
+  }
+
+  header{
+    text-align: center;
+  }
+  
+  main{
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 21%;
+    margin-right: 21%;
+  }
+  
+  #sidebar-one, #sidebar-two, #sidebar-three{
+    border:5px rgb(255, 255, 255) solid;
+    width: 30%;
+  }
+  
+  div.logo{
+    margin-top: 0.01%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    font-size: 50px;
+    margin-top: 5%;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+  
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    font-size: large;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  
+  #mainnav{
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  
+  div.contactus{
+    position: fixed;
+    width: 11%;
+    float: left;
+    top: 0%;
+  }
+  
+  div.controller{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  div.cycle-slideshow{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer{
+    margin-top: 5%;
+    margin-bottom: 9%;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+  }
+
+    .nav{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    }
+    .nav a:hover {
+    background-color: #eeeeee;
+    color: #000000;
+    justify-content: center;
+    }
+    .nav a.active {
+    background-color: #0e002b;
+    color: #ffffff;
+    justify-content: center;
+    }
+    .nav input[type=text],
+    .nav input[type=password] {
+    padding: 7px 50px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 120px;
+    text-align: center;
+    }
+    .nav .login-container button {
+    padding: 7px 40px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #600986;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    }
+    .nav .login-container button:hover {
+    background-color: #0e002b;
+    }
+
+
+  
+  @media screen and (max-width: 601px){
+    ul{
+      margin-top: 5%;
+      display: block;
+      width: 22%;
+    }
+  
+    div.text{
+      margin-top: 10%;
+    }
+  
+    h1{
+      font-size: 30px;
+      padding: 0;
+    }
+  
+    .logo{
+      width: 85%;
+    }
+  
+    h2{
+      font-size: 34px;
+      text-align: center;
+    }
+    
+    div.contactus{
+      position: fixed;
+      width: 18%;
+      float: left;
+      top: 0%;
+    }
+  
+    div.controller{
+      width: 50%;
+    }
+  
+    div.cycle-slideshow{
+      width: 75%;
+    }
+  
+    footer{
+      margin-top: 10%;
+    }
+  }

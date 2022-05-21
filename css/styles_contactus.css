@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  
+  body{
+      justify-content: center;
+      background: rgb(0, 0, 0);
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  header{
+    text-align: center;
+  }
+  
+  main{
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 21%;
+    margin-right: 21%;
+  }
+  
+  #sidebar-one, #sidebar-two, #sidebar-three{
+    border:5px rgb(255, 255, 255) solid;
+    width: 30%;
+  }
+  
+  div.logo{
+    margin-top: 0.01%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    font-size: 46px;
+    margin-top: 5%;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+  
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    font-size: large;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  
+  #mainnav{
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  div.contactus{
+    position: fixed;
+    width: 11%;
+    float: left;
+    top: 0%;
+  }
+  
+  div.controller{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  div.cycle-slideshow{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer{
+    margin-top: 9%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  @media screen and (max-width: 601px){
+    ul{
+      margin-top: 5%;
+      display: block;
+      width: 22%;
+    }
+  
+    div.text{
+      margin-top: 10%;
+    }
+  
+    h1{
+      font-size: 30px;
+      padding: 0;
+    }
+  
+    .logo{
+      width: 85%;
+    }
+  
+    h2{
+      font-size: 32px;
+      text-align: center;
+    }
+    
+    div.contactus{
+      position: fixed;
+      width: 18%;
+      float: left;
+      top: 0%;
+    }
+  
+    div.controller{
+      width: 50%;
+    }
+  
+    div.cycle-slideshow{
+      width: 75%;
+    }
+  
+    footer{
+      margin-top: 10%;
+    }
+  }
